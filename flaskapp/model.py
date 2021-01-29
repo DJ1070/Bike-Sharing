@@ -44,6 +44,6 @@ x = df.drop(columns = ['total_count'])
 y = df['total_count']
 
 
-knn = KNeighborsClassifier(n_neighbors = 2, metric = 'minkowski', p = 2).fit(X_train, y_train)
+knn = KNeighborsClassifier(n_neighbors = 2, metric = 'minkowski', p = 2).fit(x, y)
 
 pickle.dump(knn, open('model.pkl','wb'))
