@@ -1,5 +1,5 @@
 from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import AdaBoostRegressor
 
 import pandas as pd
 import numpy as np
@@ -43,7 +43,8 @@ df = pd.get_dummies(df)
 x = df.drop(columns = ['total_count'])
 y = df['total_count']
 
+#print(x)
 
-knn = KNeighborsClassifier(n_neighbors = 2, metric = 'minkowski', p = 2).fit(X_train, y_train)
-
-pickle.dump(knn, open('model.pkl','wb'))
+ada = AdaBoostRegressor()
+ada.fit(x,y)
+pickle.dump(ada, open('model.pkl','wb'))
