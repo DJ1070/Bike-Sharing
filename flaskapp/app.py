@@ -5,7 +5,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-model = pickle.load(open('Module 2/flaskapp/model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 day_dict = {'Fri':[1,0,0,0,0,0,0], 'Mon':[0,1,0,0,0,0,0],
             'Sat': [0,0,1,0,0,0,0], 'Sun':[0,0,0,1,0,0,0],
@@ -21,7 +21,7 @@ def home():
 @app.route('/predict',methods=['POST','GET'])
 def predict():
     item = [x for x in request.form.values()]
-
+    print(item)
     ## postman begin
     #hour = request.args.get('hour')
     #is_holiday = request.args.get('is_holiday')
@@ -55,9 +55,15 @@ def predict():
         data.extend([1,0])
         
     # fri, mon, sat , sun, thu, tue, wed
-    data.extend(day_dict[item[2]])
+    data.extend(day_dict[item[3]])
+
+    data.append(item[2])
+        #[-7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39])
     
-   
+    
+    #print(item[2])
+
+
     prediction = int(model.predict([data])[0])
     
     # postman begin
@@ -68,7 +74,7 @@ def predict():
    
 
 
-    return render_template('index.html',pred='Total Bike ride counts on {} at {}:00 Hrs will be {}'.format(item[2], item[0],prediction))
+    return render_template('index.html',pred='Total Bike ride counts on {} at {}:00 Hrs at {}° Celsius will be {}'.format(item[2], item[0], item[3], prediction))
 
 
 
