@@ -65,6 +65,25 @@
           document.getElementById('Day_Of_Week').value = "<?php if (isset($_POST['Day_Of_Week'])) echo $_GET['Day_Of_Week'];?>";
         </script></p>
 
+	<p><label for="Month">Month:</label>
+        <select name="Month" id="Month">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        </select>
+
+        <script type="text/javascript">
+          document.getElementById('Month').value = "<?php if (isset($_POST['Month'])) echo $_GET['Month'];?>";
+        </script></p>
         <br>
 
         <p><button type="submit" class="btn btn-primary btn-block btn-large">Predict</button></p>

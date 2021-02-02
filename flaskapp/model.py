@@ -26,14 +26,12 @@ df.rename(columns={'instant':'rec_id',
 
 df['temp_celsius'] = (47 * df.temp) - 8
 
-#for i in range(len(df.temp_celsius)):
-#    df['temp_celsius'][i] = int(df.temp_celsius[i])
-
-df = df[['hour', 'is_holiday','temp_celsius', 'weekday','total_count']]
+df = df[['hour', 'is_holiday','temp_celsius', 'weekday', 'month', 'total_count']]
 
 df.temp_celsius = df.temp_celsius.astype(int)
 df.is_holiday = df.is_holiday.astype('category')
 df.weekday = df.weekday.astype('category')
+df.month = df.month.astype('category')
 
 df = pd.get_dummies(df)
 

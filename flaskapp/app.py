@@ -12,6 +12,13 @@ day_dict = {'Fri':[1,0,0,0,0,0,0], 'Mon':[0,1,0,0,0,0,0],
             'Thu':[0,0,0,0,1,0,0], 'Tue':[0,0,0,0,0,1,0],
             'Wed': [0,0,0,0,0,0,1]}
 
+month_dict = {'January':[1,0,0,0,0,0,0,0,0,0,0,0], 'February':[0,1,0,0,0,0,0,0,0,0,0,0],
+            'March': [0,0,1,0,0,0,0,0,0,0,0,0], 'April':[0,0,0,1,0,0,0,0,0,0,0,0],
+            'May':[0,0,0,0,1,0,0,0,0,0,0,0], 'June':[0,0,0,0,0,1,0,0,0,0,0,0],
+            'July': [0,0,0,0,0,0,1,0,0,0,0,0], 'August': [0,0,0,0,0,0,0,1,0,0,0,0],
+            'September': [0,0,0,0,0,0,0,0,1,0,0,0], 'October': [0,0,0,0,0,0,0,0,0,1,0,0],
+            'November': [0,0,0,0,0,0,0,0,0,0,1,0], 'December': [0,0,0,0,0,0,0,0,0,0,0,1]}
+
 # cols = ['hour', 'is_holiday', 'day_of_week']
 
 @app.route('/')
@@ -59,6 +66,8 @@ def predict():
 
     data.append(item[2])
 
+    data.extend(month_dict[item[4]])
+
     prediction = int(model.predict([data])[0])
     
     # postman begin
@@ -69,7 +78,7 @@ def predict():
    
 
 
-    return render_template('index.html',pred='Total Bike ride counts on {} at {}:00 Hrs at {}° Celsius will be {}'.format(item[2], item[0], item[3], prediction))
+    return render_template('index.html',pred='Total Bike ride counts on {} at {}:00 Hrs at {}° Celsius in {} will be {}'.format(item[2], item[0], item[3], item[4], prediction))
 
 
 
