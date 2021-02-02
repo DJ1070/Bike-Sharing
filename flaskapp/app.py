@@ -78,7 +78,7 @@ def predict():
    
 
 
-    return render_template('index.html',pred='Total Bike ride counts on {} at {}:00 Hrs at {}° Celsius in {} will be {}'.format(item[2], item[0], item[3], item[4], prediction))
+    return render_template('index.html',pred='Total Bike ride counts on {} at {}:00 Hrs at {}° Celsius in {} will be {}'.format(item[3], item[0], item[2], item[4], prediction))
 
 
 
