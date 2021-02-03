@@ -1,0 +1,14 @@
+Available Bikes in Active Stations (inkl. 0):	av_bikes
+Available E-Bikes in Active Stations (inkl. 0):	av_e_bikes)
+Active Stations:				stat
+Active Stations:				active_station
+Inactive Station IDs:				inactive_station_id
+
+Active stations with/out available bikes:  bikes_active_stations.count(0)
+Active stations with/out available e-bikes:  e_bikes_active_stations.count(0)
+
+Which are the stations with 0 or only 1 available (e-)bike/s?
+bike_empty_stat_id
+e_bike_empty_stat_id
+only_one_bike_stat_id
+only_one_e_bike_stat_id
