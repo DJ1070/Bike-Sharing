@@ -12,3 +12,10 @@ bike_empty_stat_id
 e_bike_empty_stat_id
 only_one_bike_stat_id
 only_one_e_bike_stat_id
+
+
+
+
+
+TASKS
+Straßennamen zu Quickinfo in großem Plotly-Graph hinzufügen
