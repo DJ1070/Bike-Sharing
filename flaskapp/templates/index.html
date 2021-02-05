@@ -3,97 +3,100 @@
   <head>
     <meta charset="UTF-8">
     <title>Predict Bike Share Count</title>
-    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 
     <style>
+
     	h1 { 
-		font-family: Pacifico, Garamond, sans-serif;
-		font-size: 25;
-		text-align: center;	
+		font-family: 'Poiret One', sans-serif;
+		font-size: 80;
+		text-align: center;
+		font-weight: 1000;	
 		color: red;
 	}
 	p {
-		font-family: Arimo, Hind, Arial, sans-serif;
-		font-size: 20;
-    		text-align: center; 
+		font-family: 'Poiret One', sans-serif;
+		font-weight: bolder;
+		text-align: center;
+		font-size: 60;
+	}
+	option {
+		font-family: 'Poiret One', sans-serif;
+		font-weight: bolder;
+		text-align: center;
+		font-size: 60;
 	}
     </style>  
   </head>
 
 <body>
  <div class="login">
-  <h1>Predict Bike Share Count</h1>
+  <p><img src="cbs-logo.jpg" alt="Capital Bikeshare Logo" style="vertical-align:middle" width="250"></p>
   <p></p>
-  <p><img src="https://cdn.pixabay.com/photo/2019/05/11/22/09/bike-sharing-4196725_960_720.jpg" alt="Bike Sharing" style="vertical-align:middle" width="500" height="280"></p>
+  <p><img src="cbs.jpg" alt="Capital Bikeshare Washington D.C." style="vertical-align:middle" width="600"></p>
   <p></p>
+  <h1>prediction bikeshare</h1>
   <p></p>
 
   <!-- Form to enter new data for predictions  -->
     <form action="{{ url_for('predict')}}"method="POST">
 
-        <p><label for="Hour">Hour of the Day (between 0 and 23):</label>
-        <input type="number" id="Hour" name="Hour" placeholder="Hour" required="required" min="0" max="23" value = "<?php if (isset($_POST['Hour'])) echo $_GET['Hour'];?>"></p>
+        <p><label for="Hour">hour of the day (between 0 and 23) </label>
+        <input type="number" id="Hour" name="Hour" placeholder="hour" required="required" min="0" max="23" value = "<?php if (isset($_POST['Hour'])) echo $_GET['Hour'];?>"></p>
 
-        <p><label for="Is_Holiday">Is_Holiday:</label>
+        <p><label for="Is_Holiday">is it a holiday?</label>
         <select name="Is_Holiday" id="Is_Holiday">
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
+            <option value="Yes">yes</option>
+            <option value="No">no</option>
         </select>
 
         <script type="text/javascript">
           document.getElementById('Is_Holiday').value = "<?php if (isset($_POST['Is_Holiday'])) echo $_GET['Is_Holiday'];?>";
         </script></p>
 
-        <p><label for="Temperature">at Temperature (between -7°C and 39°C):</label>
-        <input type="number" id="Temperature" name="Temperature" placeholder="Temperature" required="required" min="-7" max="39" value = "<?php if (isset($_POST['Temperature'])) echo $_GET['Temperature'];?>"></p>
+        <p><label for="Temperature">expected temperature (between -7°C and 39°C) </label>
+        <input type="number" id="Temperature" name="Temperature" placeholder="temperature" required="required" min="-7" max="39" value = "<?php if (isset($_POST['Temperature'])) echo $_GET['Temperature'];?>"></p>
 
-	<p><label for="Day_Of_Week">Day_Of_Week:</label>
+	<p><label for="Day_Of_Week">weekday </label>
         <select name="Day_Of_Week" id="Day_Of_Week">
-            <option value="Mon">Mon</option>
-            <option value="Tue">Tue</option>
-            <option value="Wed">Wed</option>
-            <option value="Thu">Thu</option>
-            <option value="Fri">Fri</option>
-            <option value="Sat">Sat</option>
-            <option value="Sun">Sun</option>
+            <option value="Mon">monday</option>
+            <option value="Tue">tuesday</option>
+            <option value="Wed">wednesday</option>
+            <option value="Thu">thursday</option>
+            <option value="Fri">friday</option>
+            <option value="Sat">saturday</option>
+            <option value="Sun">sunday</option>
         </select>
 
         <script type="text/javascript">
           document.getElementById('Day_Of_Week').value = "<?php if (isset($_POST['Day_Of_Week'])) echo $_GET['Day_Of_Week'];?>";
         </script></p>
 
-	<p><label for="Month">Month:</label>
+	<p><label for="Month">month </label>
         <select name="Month" id="Month">
-            <option value="January">January</option>
-            <option value="February">February</option>
-            <option value="March">March</option>
-            <option value="April">April</option>
-            <option value="May">May</option>
-            <option value="June">June</option>
-            <option value="July">July</option>
-            <option value="August">August</option>
-            <option value="September">September</option>
-            <option value="October">October</option>
-            <option value="November">November</option>
-            <option value="December">December</option>
+            <option value="January">january</option>
+            <option value="February">february</option>
+            <option value="March">march</option>
+            <option value="April">april</option>
+            <option value="May">may</option>
+            <option value="June">june</option>
+            <option value="July">july</option>
+            <option value="August">august</option>
+            <option value="September">september</option>
+            <option value="October">october</option>
+            <option value="November">november</option>
+            <option value="December">december</option>
         </select>
 
         <script type="text/javascript">
           document.getElementById('Month').value = "<?php if (isset($_POST['Month'])) echo $_GET['Month'];?>";
         </script></p>
-        <br>
 
         <p><button type="submit" class="btn btn-primary btn-block btn-large">Predict</button></p>
     </form>
-
    <p></p>
-   <p>{{pred}}</p>
-   
- </div>
- 
+   {{pred}}
 
 </body>
 </html>
