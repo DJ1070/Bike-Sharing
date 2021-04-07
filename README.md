@@ -14,9 +14,9 @@
     <li><a href="https://www.capitalbikeshare.com/system-data">member surveys</a>.
   </ul>
   <li>Application of machine learning methods to forecast the need of bikes at certain stations / days / hours / weather conditions etc.</li>
-  <li>Deployment of FBProphet</li>
-  <li>Building a forecasting app with Flask App</li>
+  <li>Deployment of <a href="https://facebook.github.io/prophet/">FBProphet</a></li>
+  <li>Building a forecasting app with <a href="https://pypi.org/project/Flask/">Flask App</a></li>
   <li>Acquisition of field knowledge through thorough business research</li>
   <li>Formulation of KPIs</li>
-  <li>Compilation of all previous working steps in a Presentation</li>
+  <li>Compilation of all previous working steps in a Presentation.</li>
 </ol>
