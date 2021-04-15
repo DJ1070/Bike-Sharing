@@ -2,25 +2,25 @@
 0,Eads St & 15th St S,1,38.858971,-77.05323,15
 1,18th St & S Eads St,2,38.85725,-77.05332,11
 2,Crystal Dr & 20th St S,3,38.856425,-77.049232,17
-3,Crystal Dr & 15th St S,4,38.86017,-77.049593,11
+3,Crystal Dr & 15th St S,4,38.861056,-77.049417,16
 4,Aurora Hills Cmty Ctr / 18th St & S Hayes St,5,38.857866,-77.05949,11
 5,Pentagon City Metro / 12th St & S Hayes St,6,38.862303,-77.059936,19
 6,Army Navy Dr & S Joyce St,7,38.8637,-77.0633,15
 7,Crystal City Metro / 18th St & S Bell St,8,38.85740496261504,-77.05113172531128,19
 8,Crystal Dr & 27th St S,10,38.848466,-77.051514,11
 9,S Glebe Rd & Potomac Ave,11,38.8426,-77.0502,11
-10,Crystal Dr & 23rd St S,12,38.8533,-77.0498,17
+10,Crystal Dr & 23rd St S,12,38.852929,-77.049723,17
 11,Clark St & 26th St S,13,38.850688,-77.05152,11
 12,19th St & Pennsylvania Ave NW,14,38.9003,-77.0429,15
 13,14th & V St NW,15,38.9177645,-77.032096,31
 14,11th & Kenyon St NW,16,38.929464,-77.027822,27
-15,16th & Harvard St NW,17,38.926088,-77.036536,33
+15,15th & Harvard St NW,17,38.92612422246211,-77.03542068600655,23
 16,Adams Mill & Columbia Rd NW,18,38.922925,-77.042581,15
 17,14th & Harvard St NW,19,38.9268,-77.0322,19
 18,Calvert & Biltmore St NW,20,38.923203,-77.047637,23
 19,Lamont & Mt Pleasant NW,21,38.9319,-77.0388,19
 20,4th & M St SW,22,38.876697,-77.0178975,23
-21,15th & P St NW,23,38.909868,-77.034421,19
+21,15th & P St NW,23,38.90980062655191,-77.03442692756653,19
 22,14th & R St NW,24,38.913046,-77.032008,19
 23,14th & Rhode Island Ave NW,25,38.9086,-77.0323,23
 24,20th & E St NW,26,38.8963,-77.045,15
@@ -39,7 +39,7 @@
 37,Anacostia Metro,39,38.862669,-76.994637,11
 38,Good Hope Rd & MLK Ave SE,40,38.867373,-76.988039,11
 39,19th & E Street NW,41,38.8952,-77.0436,11
-40,4th & W St NE,42,38.919077,-77.000648,15
+40,4th & W St NE,42,38.919077,-77.000648,14
 41,10th & U St NW,43,38.9172,-77.0259,15
 42,Georgia Ave and Fairmont St NW,44,38.9249,-77.0222,11
 43,1st & N St  SE,45,38.8743,-77.0057,39
@@ -85,7 +85,7 @@
 83,18th & L St NW,86,38.903741450919384,-77.04245209693909,19
 84,C & O Canal & Wisconsin Ave NW,87,38.90375,-77.06269,23
 85,Maine Ave & 7th St SW,88,38.878693599396954,-77.02305436134338,19
-86,D St & Maryland Ave NE,89,38.894758,-76.997114,23
+86,D St & Maryland Ave NE,89,38.89484064247075,-76.99591577053069,23
 87,34th St & Wisconsin Ave NW,90,38.916442,-77.0682,11
 88,13th St & New York Ave NW,91,38.900283,-77.029822,23
 89,8th & H St NW,92,38.8997,-77.023086,33
@@ -114,7 +114,7 @@
 112,11th & M St NW,115,38.9055785,-77.027313,19
 113,36th & Calvert St NW / Glover Park,116,38.922581,-77.070334,15
 114,14th & G St NW,117,38.898409,-77.032278,23
-115,Potomac Ave & 35th St S,118,38.844015,-77.050537,23
+115,Potomac Ave & 35th St S,118,38.844015,-77.050537,15
 116,Ohio Dr & West Basin Dr SW / MLK & FDR Memorials,124,38.88412,-77.04657,31
 117,11th & F St NW,125,38.897857,-77.026975,15
 118,23rd & E St NW ,126,38.896104,-77.049882,19
@@ -132,7 +132,7 @@
 130,Wilson Blvd & N Franklin Rd,138,38.8904,-77.0889,11
 131,Clarendon Blvd & N Fillmore St,139,38.8881,-77.09308,15
 132,Clarendon Metro / Wilson Blvd & N Highland St,140,38.88786,-77.094875,17
-133,18th St & Pennsylvania Ave NW,141,38.899680000000004,-77.041539,26
+133,18th St & Pennsylvania Ave NW,141,38.899680000000004,-77.041539,27
 134,4th & C St SW,142,38.88637194054526,-77.01770067214966,39
 135,4th & E St SW,143,38.88412,-77.017445,19
 136,3rd & G St SE,144,38.881185,-77.001828,19
@@ -160,7 +160,7 @@
 158,Central Library / Quincy St & 10th St N,166,38.88397,-77.10783,11
 159,Washington Blvd & 10th St N,167,38.884734,-77.093485,15
 160,Jefferson Dr & 14th St SW,168,38.8885525,-77.032427,23
-161,Smithsonian-National Mall / Jefferson Dr & 12th St SW,169,38.888774,-77.028694,32
+161,Smithsonian-National Mall / Jefferson Dr & 12th St SW,169,38.888774,-77.028694,35
 162,George Mason Dr & Wilson Blvd,170,38.87887,-77.1207,15
 163,6th St & Indiana Ave NW,171,38.894573,-77.01994,19
 164,N Veitch St & Key Blvd,172,38.893237,-77.086063,11
@@ -351,7 +351,7 @@
 349,8th & O St NW,370,38.90864,-77.02277,19
 350,Georgia & Missouri Ave NW,371,38.961339,-77.027855,19
 351,Oklahoma Ave & D St NE,373,38.894474,-76.974828,19
-352,Maryland Ave & E St NE,374,38.896134,-76.9929,19
+352,Maryland Ave & E St NE,374,38.89608815884687,-76.99401140213013,19
 353,New York Ave & Hecht Ave NE,375,38.915604,-76.983683,23
 354,Yuma St & Tenley Circle NW,376,38.946182,-77.08059,19
 355,Connecticut Ave & Chevy Chase Lake Dr,377,38.994113,-77.076986,15
@@ -454,52 +454,52 @@
 452,Washington-Liberty High School / N Stafford St & Generals Way,475,38.888282,-77.111066,15
 453,Westover Library / Washington Blvd & N McKinley Rd,476,38.886048,-77.142317,15
 454,Columbia Pike & S Taylor St,477,38.858524,-77.103728,15
-455,Columbus Ave & Gramercy Blvd,479,39.12333,-77.16486,11
-456,Reston Pkwy & Spectrum Dr,480,38.964207741006206,-77.35428035259247,15
-457,Key West Ave & Great Seneca Hwy,481,39.105642,-77.20386,11
-458,Virginia Ave & 25th St NW,482,38.8995,-77.054155,19
-459,15th & M St NW,483,38.905424,-77.034674,19
-460,11th & Girard St NW,484,38.925636,-77.027112,19
-461,Connecticut Ave & R St NW,485,38.912644,-77.04564,19
-462,Wilson Blvd & N Troy St,486,38.892556,-77.082089,15
-463,American University East Campus,487,38.936298,-77.087128,19
-464,15th St & Constitution Ave NW,488,38.892244,-77.033234,19
-465,23rd & M St NW,490,38.905303,-77.050264,19
-466,Corporate Blvd & Omega Dr,491,39.106971,-77.192645,15
-467,Key West Ave & Diamondback Dr,492,39.106152,-77.202354,11
-468,Alabama Ave & Stanton Rd SE / Shops at Park Village,493,38.84627,-76.98185,19
-469,Mississippi Ave & 19th St SE / THEARC,494,38.84377,-76.97557,19
-470,19th & Savannah St SE,495,38.84623,-76.97703,11
-471,4th St & Mississippi Ave SE,496,38.836,-77.0009,19
-472,1st & S Capitol St SE / Oxon Run Trail,497,38.824481,-77.005497,19
-473,Livingston Rd & 3rd St SE,498,38.82373,-77.00223,15
-474,Joliet St & MLK Ave SW/Bald Eagle Rec Ctr,499,38.81909,-77.01033,19
-475,37th & Ely Pl SE,500,38.883011,-76.949709,15
-476,15th St & Pennsylvania Ave NW,501,38.89646474748647,-77.0333808660507,19
-477,Maine Ave & 9th St SW,505,38.88044,-77.025236,15
-478,Lincoln Rd & Seaton Pl NE/Harry Thomas Rec Center,506,38.915,-77.0078,19
-479,Blueridge Ave & Elkin St,507,39.04313,-77.05006,15
-480,Georgia Ave & Kennedy St NW,508,38.95674,-77.02791,19
-481,7th St & Massachusetts Ave NE,509,38.89222,-76.99602,19
-482,Anacostia Park,510,38.87335,-76.9834,19
-483,Twinbrook Metro,511,39.062041,-77.120776,14
-484,White Flint Metro,512,39.04753,-77.11287,25
-485,Citadel Ave & McGrath Blvd,513,39.049,-77.10933,15
-486,Rockville Pike & Old Georgetown Rd,514,39.049765,-77.11368,15
-487,Woodglen Dr & Executive Blvd,515,39.04317,-77.1135,16
-488,Executive Blvd & E Jefferson St,516,39.04873,-77.1257,15
-489,Fishers Ln & Rock Creek Mill Rd,517,39.0629,-77.113454,15
-490,Congressional Ln & E Jefferson St,518,39.06219,-77.129235,15
-491,Garland Ave & Walden Rd,519,39.00048,-77.00077,15
-492,Greensboro & Pinnacle Dr,520,38.92245,-77.23034,13
-493,1301 McCormick Dr / Wayne K. Curry Admin Bldg,521,38.908391,-76.843263,15
-494,Largo Town Center Metro,522,38.899811,-76.844604,17
-495,Baltimore Ave & Van Buren St / Riverdale Park Station,523,38.969581,-76.937349,17
-496,Baltimore Ave & Jefferson St,524,38.95548,-76.940133,15
-497,Perry & 35th St,525,38.936213,-76.960054,15
-498,Rockville Pike & Meeting St,526,39.050539,-77.115212,15
-499,Potomac Ave & Half St SW,527,38.86968314861632,-77.01081544160843,23
-500,Crystal Dr & Potomac Ave,529,38.848304,-77.05122,11
+455,Columbus Ave & Tribeca St,478,39.12582811177034,-77.16705948114395,11
+456,Columbus Ave & Gramercy Blvd,479,39.12333,-77.16486,11
+457,Reston Pkwy & Spectrum Dr,480,38.964207741006206,-77.35428035259247,15
+458,Key West Ave & Great Seneca Hwy,481,39.105642,-77.20386,11
+459,Virginia Ave & 25th St NW,482,38.8995,-77.054155,19
+460,15th & M St NW,483,38.905424,-77.034674,19
+461,11th & Girard St NW,484,38.925636,-77.027112,19
+462,Connecticut Ave & R St NW,485,38.912644,-77.04564,19
+463,Wilson Blvd & N Troy St,486,38.892556,-77.082089,15
+464,American University East Campus,487,38.936298,-77.087128,19
+465,15th St & Constitution Ave NW,488,38.892244,-77.033234,19
+466,23rd & M St NW,490,38.905303,-77.050264,19
+467,Corporate Blvd & Omega Dr,491,39.106971,-77.192645,15
+468,Key West Ave & Diamondback Dr,492,39.106152,-77.202354,11
+469,Alabama Ave & Stanton Rd SE / Shops at Park Village,493,38.84627,-76.98185,19
+470,Mississippi Ave & 19th St SE / THEARC,494,38.84377,-76.97557,19
+471,19th & Savannah St SE,495,38.84623,-76.97703,11
+472,4th St & Mississippi Ave SE,496,38.836,-77.0009,19
+473,1st & S Capitol St SE / Oxon Run Trail,497,38.824481,-77.005497,19
+474,Livingston Rd & 3rd St SE,498,38.82373,-77.00223,15
+475,Joliet St & MLK Ave SW/Bald Eagle Rec Ctr,499,38.81909,-77.01033,19
+476,37th & Ely Pl SE,500,38.883011,-76.949709,15
+477,15th St & Pennsylvania Ave NW,501,38.89646474748647,-77.0333808660507,19
+478,Maine Ave & 9th St SW,505,38.88044,-77.025236,15
+479,Lincoln Rd & Seaton Pl NE/Harry Thomas Rec Center,506,38.915,-77.0078,19
+480,Blueridge Ave & Elkin St,507,39.04313,-77.05006,15
+481,Georgia Ave & Kennedy St NW,508,38.95674,-77.02791,19
+482,7th St & Massachusetts Ave NE,509,38.89222,-76.99602,19
+483,Anacostia Park,510,38.87335,-76.9834,19
+484,Twinbrook Metro,511,39.062041,-77.120776,14
+485,White Flint Metro,512,39.04753,-77.11287,25
+486,Citadel Ave & McGrath Blvd,513,39.049,-77.10933,15
+487,Rockville Pike & Old Georgetown Rd,514,39.049765,-77.11368,15
+488,Woodglen Dr & Executive Blvd,515,39.04317,-77.1135,16
+489,Executive Blvd & E Jefferson St,516,39.04873,-77.1257,15
+490,Fishers Ln & Rock Creek Mill Rd,517,39.0629,-77.113454,15
+491,Congressional Ln & E Jefferson St,518,39.06219,-77.129235,15
+492,Garland Ave & Walden Rd,519,39.00048,-77.00077,15
+493,Greensboro & Pinnacle Dr,520,38.92245,-77.23034,13
+494,1301 McCormick Dr / Wayne K. Curry Admin Bldg,521,38.908391,-76.843263,15
+495,Largo Town Center Metro,522,38.899811,-76.844604,17
+496,Baltimore Ave & Van Buren St / Riverdale Park Station,523,38.969581,-76.937349,17
+497,Baltimore Ave & Jefferson St,524,38.95548,-76.940133,15
+498,Perry & 35th St,525,38.936213,-76.960054,15
+499,Rockville Pike & Meeting St,526,39.050539,-77.115212,15
+500,Potomac Ave & Half St SW,527,38.86968314861632,-77.01081544160843,23
 501,Largo Rd & Campus Way / Prince Georges's Comm Col,530,38.88994,-76.825535,15
 502,Stanton Square SE,531,38.855004,-76.984512,19
 503,14th & Newton St NW,532,38.931991,-77.032956,19
@@ -606,7 +606,7 @@
 604,Broad Branch Rd & Northampton St NW,640,38.96577499342219,-77.06862643361092,19
 605,N Pitt St & Montgomery St,641,38.81403111409755,-77.04281687736511,15
 606,Duke St & Strand (Robinson Terminal),643,38.801947,-77.040293,11
-607,21st St & G st NW,645,38.898308,-77.046402,19
+607,21st St & G st NW,645,38.89830173667249,-77.04691261053085,19
 608,4th St & G St SW,646,38.881123,-77.017658,19
 609,Kansas Ave & Longfellow St NW,647,38.958098,-77.013821,19
 610,National Airport,648,38.852903,-77.045916,19
@@ -620,3 +620,9 @@
 618,20th & Columbia Rd NW,656,38.918036,-77.045487,19
 619,3rd & M st SE,657,38.876823,-77.002161,23
 620,53rd & D St SE/C.W. Harris Elementary,659,38.883318,-76.925315,19
+621,N Hampton Dr & Ford Ave,662,38.837306,-77.106111,11
+622,Whiting & Lane Dr,663,38.809709,-77.135788,15
+623,N Howard St & Taney Ave,664,38.815842,-77.110014,15
+624,Anacostia Roller Skating Pavillion,665,38.878771,-76.97093,19
+625,S Clark St & 33rd St,667,38.845028,-77.051956,11
+626,Columbia Pike & S Greenbrier St,668,38.854019,-77.118106,15
